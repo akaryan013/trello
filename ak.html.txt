@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html >
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+    .container {
+    padding:100px 90px;
+   background-color: rgb(10, 107, 185);
+  font-size: x-large;
+  color:white;
+  font-family: informative semibold;
+  }
+ input[type=submit] {
+  padding: 12px 48px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+  color:white;
+  font-size:large;
+}
+input[type=email] {
+  padding: 12px 100px 12px 12px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+ font-size: large;
+}
+.city {
+  padding: 85px 55px;
+  background-color: white;
+  color:black;
+  font-size:120%;
+}
+.shiv {
+    padding:120px 35px;
+ background-color: white;
+  color:black;
+  font-size:120%;
+}
+.citi {
+  padding: 35px 55px;
+  background-color: white;
+  color:black;
+  font-size:120%;
+}
+.bg-img {
+  background-image: url("img16.png");
+  min-height: 400px;
+  margin:50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contain {
+  position: absolute;
+  right: 0;
+  margin: 268px 520px 100px 473px;
+  max-width: 300px;
+  padding: 16px;
+}
+.btn {
+  background-color: whitesmoke;
+  color:black;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  font-size: large;
+}
+.bd-img {
+  background-image: url("img17.png");
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contain1 {
+  position: absolute;
+  right: 0;
+  margin: 265px 468px 100px 480px;
+  max-width: 300px;
+  padding: 16px;
+}
+.btn1 {
+  background-color: rgb(68, 197, 85);
+  color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  font-size: large;
+}
+.ak {
+  padding:30px;
+  font-size: 90%;
+  margin: -40px 800px 0px 40px;
+}
+.ak1 {
+  padding:30px;
+  font-size: 90%;
+  margin: -277px 410px 350px 450px;
+}
+.ak2 {
+  padding:30px;
+  font-size: 90%;
+  margin: -625px 40px 0px 800px;
+}
+a:visited {
+  color: rgb(163, 167, 173);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(22, 21, 21);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bg-text {
+  background-color: rgb(10, 107, 187); /* Black w/opacity/see-through */
+  color: white;
+  font-size: 45px;
+  font-style: bold;
+  font-family: Market web;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 1300px;
+  padding: 25px 1100px 10px 50px;
+}
+</style>
+</head>
+  <body>
+        <div class="bg-text"><b>Trello</b></div>
+       
+        <div >
+             <img  src="file:///C:/Users/kumar%20satwik%20kaushal/Downloads/hero-a.svg" height="550px" width="550px"  align="right" alt="There was supose to be an image here">
+             <div class="container">
+           <p style="font-size: 200%;"><b>Trello lets you work <br>more collaboratively <br>and get more done.</b></p>
+          <p>Trello’s boards, lists, and cards enable<br> you to organize and prioritize your<br> projects in a fun, flexible, and <br>rewarding way.</p>
+           <br>
+               <form action="https://trello.com/signup">
+               <input type="email" placeholder="Email" >
+                    <input type="submit" style="background-color:rgb(71, 201, 99); cursor: pointer;" value="Sign Up - It's free!" font-size="100">
+                  </form>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <img src="image2.png" height="450px" width="650px" align="right">
+            <div class="city">
+            <h2><b>Work with any team</b></h2>
+            <p>Whether it’s for work, a side project or even<br> the next family vacation, Trello helps your<br> team stay organized.</p>
+            <form action="https://trello.com/signup">
+            <input type="submit" style="background-color:rgb(116, 125, 146); cursor: pointer;" value="Start doing -->">
+            </form>
+            <br>
+            </div>
+        </div>
+           <br>
+        <div style="background-color:white;">
+            <img src="image3.png" height="450px" width="350px" hspace="100" align="left">
+            <div class="shiv">
+            <h2><b>Information at a glance</b></h2>
+            <p>Dive into the details by adding comments, attachments, due dates,<br> and more directly to Trello cards. Collaborate on projects from<br> beginning to end.</p>
+            <br>
+           </div>
+        </div>
+            <div style="background-color:white">
+            <img class="img-fluid mb-3" src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/06f0833d33e1d71bbf0858029839b406/butler.png" width="450" height="350" align="right"> 
+            <div class="citi">
+            <h2><b>Built-In Workflow Automation With Butler</b></h2>
+            <p>Let the robots do the work! Boost productivity by unleashing the<br> power of automation across your entire team with Butler, and<br> remove tedious tasks from your to-do lists with:</p>
+           <ul>
+               <li>Rule-Based Triggers</li>
+               <li>Custom Card & Board Buttons</li>
+               <li>Calendar Commands</li>
+               <li>Due Date Commands</li>
+           </ul>
+           </div>
+        </div>
+        <div>
+        <div align="middle" class="citi">
+            <h2><b>See how it works</b></h2>
+            <p>Go from idea to action in seconds with Trello’s intuitively<br>simple boards, lists, and cards</p>
+        </div>
+        </div>
+        <div class="w3-content w3-display-container">
+          <img class="mySlides" src="image5.png" style="width:100%">
+          <img class="mySlides" src="image6.png" style="width:100%">
+          <img class="mySlides" src="image7.png" style="width:100%">
+          <img class="mySlides" src="image0.png" style="width:100%">
+          <img class="mySlides" src="image00.png" style="width:100%">
+          
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+           
+            <div align="middle" class="citi">
+                <h2><b>Trello your way</b></h2>
+                <p>Use Trello the way your team works best. We’ve got the<br> flexibility & features to fit any team’s style.</p>
+            </div>
+            </div>
+            <div>
+                <img src="image10.png" align="left" height="200" width="280" hspace="90"> 
+                <img src="image11.png" align="middle" height="200" width="280" hspace="60">
+                <img src="image12.png" align="middle" height="200" width="280" hspace="50">
+            </div>
+            <div align="middle" class="ak">
+                <h2><b>The Team Playbook</b></h2>
+                <p>It’s easy to get your team up and running with <br>Trello. We’ve collected all of the boards and<br> tools you need to succeed in one handy<br> resource.</p>
+                <form action="https://trello.com/teams">
+                <input type="submit" style="background-color:rgb(133 , 145 , 172); cursor: pointer;" value="Make a game plan">
+                </form>
+              </div>
+            <div  align="middle" class="ak1">
+                <h2><b>A Productivity Platform</b></h2>
+                <p>Integrate the apps your team already uses<br> directly into your workflow. Power-Ups turn <br>Trello boards into living applications to meet<br> your team's unique business needs.</p>
+                <form action="https://trello.com/power-ups">
+                <input type="submit" style="background-color:rgb(133, 145, 172); cursor:pointer;" value="Power-up your work plan">
+                </form>
+              </div>
+             <div align="middle" class="ak2">
+                <h2><b>Always In Sync</b></h2>
+                <p>No matter where you are, Trello stays in sync<br> across all of your devices. Collaborate with<br> your team anywhere, from sitting on the bus<br> to sitting on the beach.</p>
+              <a href="https://apps.apple.com/app/trello-organize-anything/id461504587"><img src="img20.png" height="50" width=140></a>
+              <a href="https://play.google.com/store/apps/details?id=com.trello"><img src="img21.png" height="50" width=140></a>
+              </div>
+
+             <div style="background-color: rgb(247, 243, 247);">
+              <div class="bg-img">
+                <form action="https://trello.com/business-class" class="contain">
+                  <button type="submit" class="btn"> Find out how --> </button>
+                </form>
+              </div>
+              <div class="bd-img">
+                <form action="https://trello.com/signup" class="contain1">
+                  <button type="submit" class="btn1"> <b> Get Started - It's Free! </b> </button>
+                </form>
+              </div>
+             </div>
+             <div align="middle" style="background-color: rgb(234, 242, 253);">
+               <br><br>
+               <label for="language"></label> 
+              <select style="font-size: large;">
+                 <option value="0" selected disabled><x-large>language</x-large></option>
+                 <option value="eng">Deutsch</option>
+                 <option value="eng">English</option>
+                 <option value="eng">English (AU)</option>
+                 <option value="eng">English (UK)</option>
+                 <option value="eng">English (US)</option>
+                 <option value="eng">Italiano</option>
+                 <option value="eng">Magyar</option>
+                 <option value="eng">Nederlands</option>
+                 <option value="eng">Norsk (bokmal)</option>
+                 <option value="eng">Polski</option>
+                 <option value="eng">Portugues (Brasil)</option>
+                 <option value="eng">Suomi</option>
+                 <option value="eng">Svenska</option>
+               </select>
+               <br><br>
+             </div >
+             <div align="middle" style="background-color: rgb(239, 245, 250); word-spacing: 10px;">
+             <a href="https://trello.com/templates" >Templates</a>
+             <a href="https://trello.com/pricing">Pricing</a>
+             <a href="https://trello.com/platforms">Apps</a>
+             <a href="https://www.atlassian.com/company/careers/trello">Jobs</a>
+             <a href="https://blog.trello.com/">Blog</a>
+             <a href="https://developers.trello.com/">Develpers</a>
+             <a href="https://trello.com/about">About</a>
+             <a href="https://help.trello.com/">Help</a>
+             <a href="https://www.atlassian.com/legal/cloud-terms-of-service">Legal</a>
+             <a href="">CookieSetting</a>
+             <a href="https://www.atlassian.com/legal/privacy-policy">Privacy</a>
+             <br><br>
+            </div>
+            <div style="background-color: rgb(241, 245, 250);">
+             <img src="C:\Users\kumar satwik kaushal\Downloads\atlassian-logo-gray-small.svg" align="center" hight="1000" width="150" hspace="550">
+             <p style="font-size: 90%;" align="middle">© Copyright 2020. All rights reserved.</p>
+             </div>
+             <br><br>
+            </body>
+
+</html>
